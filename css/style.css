@@ -2,8 +2,13 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* mix */
 .list-inline {
   margin-bottom: 0;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 /* navbar */
@@ -29,10 +34,6 @@ nav li a {
   font-size: 13px;
 }
 
-nav li a:hover {
-  text-decoration: none;
-}
-
 .btn_signup {
   color: #006aff;
   border: 1px solid #006aff;
@@ -54,3 +55,93 @@ nav li a:hover {
   font-size: 18px;
 }
 /* fine navbar */
+/* hero */
+.header_bottom {
+  background-image: url('https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 60px;
+  padding: 60px 0;
+}
+
+.hero_left {
+  color: white;
+  padding-right: 20px;
+}
+
+h1 {
+  font-size: 58px;
+  font-weight: 500;
+}
+
+.hero_left p {
+  color: lightgrey;
+  line-height: 150%;
+  font-size: 20px;
+}
+
+.hero_right {
+  background-color: white;
+  padding: 15px 20px 30px;
+  border-radius: 5px;
+}
+
+.hero_right h3 {
+  color: #031b4e;
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.hero_right p {
+  font-size: 28px;
+  text-align: center;
+  color: #006aff;
+  font-weight: 500;
+}
+
+.hero_right input {
+  width: 100%;
+  height: 48px;
+  margin-bottom: 9px;
+  border: 1px solid #e5e8ed;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.hero_right .btn {
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 7px;
+}
+
+.btn_create {
+  background-color: #579aff;
+  color: white;
+}
+
+.btn_google {
+  color: #666666;
+  background-image: url('../img/google-icon.png');
+  background-size: 21px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  box-shadow: 1px 1px lightgrey;
+}
+
+.hero_right small {
+  text-align: center;
+  display: block;
+  margin-top: 5px;
+  font-weight: 500;
+  color: #031b4e;
+}
+
+#special_link {
+  text-decoration: underline;
+  color: #006aff;
+}
+/* fine hero */
