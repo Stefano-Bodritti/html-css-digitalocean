@@ -11,6 +11,13 @@ a:hover {
   text-decoration: none;
 }
 
+section {
+  padding: 30px 0;
+}
+
+.bg_grey {
+  background-color: #f2f5f9;
+}
 /* navbar */
 .header_top {
   line-height: 60px;
@@ -145,3 +152,41 @@ h1 {
   color: #006aff;
 }
 /* fine hero */
+/* sezione loghi */
+#logos h3 {
+  color: #5b6987;
+  font-size: 15px;
+}
+
+.partners {
+  margin: 0 auto;
+}
+
+.partners img {
+  width: calc((100% / 6) - 4px);
+  padding: 0 10px;
+}
+
+#logos a {
+  display: block;
+  color: #006aff;
+  font-weight: 500;
+  margin-top: 10px;
+}
+/* fine sezione loghi */
+
+
+/* mediaquery */
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  .partners {
+    max-width: 400px;
+  }
+
+  .partners img {
+    width: calc((100% / 2) - 4px);
+  }
+}
