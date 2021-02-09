@@ -168,12 +168,58 @@ h1 {
 }
 
 #logos a {
-  display: block;
+  display: inline-block;
   color: #006aff;
   font-weight: 500;
   margin-top: 10px;
 }
 /* fine sezione loghi */
+/* sezione deploy */
+#deploy h2 {
+  color: #031b4e;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+#deploy :not(.deploy_box) > p {
+  color: #5b6987;
+  font-size: 17px;
+  font-weight: 500;
+  padding-bottom: 40px;
+}
+
+.vertical_list {
+  color: rgba(3, 27, 78, 0.6);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.vertical_list li {
+  border-left: 1px solid rgba(3, 27, 78, 0.6);
+  padding: 10px;
+}
+
+.deploy_box {
+  height: 180px;
+  padding-right: 15px;
+}
+
+.deploy_box img {
+  height: 38px;
+}
+
+.deploy_box h4 {
+  font-size: 18px;
+  color: #031b4e;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.deploy_box p {
+  color: rgba(3, 27, 78, 0.6);
+  font-weight: 500;
+}
+/* fine sezione deploy */
 
 
 /* mediaquery */
@@ -188,5 +234,15 @@ h1 {
 
   .partners img {
     width: calc((100% / 2) - 4px);
+  }
+
+  #deploy .vertical_list {
+    margin-bottom: 25px;
+  }
+
+  .deploy_box {
+    padding: 0;
+    height: auto;
+    margin-bottom: 20px;
   }
 }
