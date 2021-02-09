@@ -1,3 +1,56 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+.list-inline {
+  margin-bottom: 0;
+}
+
+/* navbar */
+.header_top {
+  line-height: 60px;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 10;
+}
+
+.logo img {
+  height: 22px;
+}
+
+nav li a {
+  color: #031b4f;
+  margin-left: 8px;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+nav li a:hover {
+  text-decoration: none;
+}
+
+.btn_signup {
+  color: #006aff;
+  border: 1px solid #006aff;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.burger {
+  color: #006aff;
+  display: none;
+  background-color: transparent;
+}
+
+.burger:hover {
+  color: #006aff;
+}
+
+.burger i {
+  font-size: 18px;
+}
+/* fine navbar */
