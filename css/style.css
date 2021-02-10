@@ -23,11 +23,28 @@ h2 {
   color: #031b4e;
   font-weight: 700;
   font-size: 35px;
+  margin-bottom: 30px;
 }
 
 a:focus, button:focus, input:focus {
   text-decoration: none;
   outline: none;
+}
+
+.deploy_box img, .features_box img {
+  height: 38px;
+}
+
+.deploy_box h4, .features_box h4 {
+  font-size: 18px;
+  color: #031b4e;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.deploy_box p, .features_box p {
+  color: rgba(3, 27, 78, 0.6);
+  font-weight: 500;
 }
 
 /* navbar */
@@ -209,22 +226,6 @@ h1 {
   height: 180px;
   padding-right: 15px;
 }
-
-.deploy_box img {
-  height: 38px;
-}
-
-.deploy_box h4 {
-  font-size: 18px;
-  color: #031b4e;
-  font-weight: 500;
-  margin-top: 15px;
-}
-
-.deploy_box p {
-  color: rgba(3, 27, 78, 0.6);
-  font-weight: 500;
-}
 /* fine sezione deploy */
 /* sezione designed */
 #designed p {
@@ -273,7 +274,15 @@ h1 {
   padding: 0 3px;
 }
 /* fine sezione designed */
+/* sezione features */
+.features_box a {
+  display: inline-block;
+  font-weight: 500;
+  color: #006aff;
+  margin-bottom: 20px;
+}
 
+/* fine sezione features */
 
 /* mediaquery */
 @media screen and (max-width: 992px) {
