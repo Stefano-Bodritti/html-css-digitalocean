@@ -437,7 +437,70 @@ footer .list-unstyled li {
   margin-bottom: 6px;
 }
 /* fine piè di pagina */
+/* sammy the shark */
+.shark {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
 
+.shark_img {
+  height: 50px;
+  width: 50px;
+  background-color: #006aff;
+  background-image: url('../img/sammy_shark.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-radius: 6px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.shark .circle {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 21px;
+  vertical-align: middle;
+  text-align: center;
+  height: 27px;
+  width: 27px;
+  border-radius: 50%;
+  background-color: red;
+  border: 4px solid white;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.balloon {
+  display: inline-block;
+  margin-right: 12px;
+  width: 280px;
+  background-color: white;
+  position: relative;
+  vertical-align: middle;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.balloon p {
+  font-size: 13px;
+  color: #031c4e;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.balloon i {
+  position: absolute;
+  right: -6px;
+  bottom: 3px;
+  font-size: 20px;
+  color: white;
+}
+/* fine sammy the shark */
 
 /* mediaquery */
 @media screen and (max-width: 1199px) {
