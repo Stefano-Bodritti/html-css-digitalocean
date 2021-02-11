@@ -47,6 +47,16 @@ a:focus, button:focus, input:focus {
   font-weight: 500;
 }
 
+.bullets {
+  margin-top: 15px;
+  color: #0069ff;
+  font-size: 12px;
+}
+
+.bullets i {
+  padding: 0 3px;
+}
+/* fine mix */
 /* navbar */
 .header_top {
   line-height: 60px;
@@ -264,15 +274,6 @@ h1 {
   transform: translateY(-50%);
 }
 
-.bullets {
-  margin-top: 15px;
-  color: #0069ff;
-  font-size: 12px;
-}
-
-.bullets i {
-  padding: 0 3px;
-}
 /* fine sezione designed */
 /* sezione features */
 .features_box a {
@@ -329,6 +330,45 @@ h1 {
   color: #00d7d2;
 }
 /* fine sezione service */
+/* sezione development */
+.carosel_2 {
+  background-color: white;
+  padding: 70px 0;
+}
+
+.carosel_2 img {
+  width: 250px;
+  max-width: 100%;
+}
+
+.carosel_2 p {
+  color: #5b6987;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 15px 0;
+}
+
+.carosel_2 h5 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #031b4e;
+  margin-bottom: 3px;
+}
+
+.carosel_2 small {
+  color: #031b4e;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.carosel_2 a {
+  display: block;
+  margin-top: 30px;
+  color: #0069ff;
+  font-weight: 500;
+}
+
+/* fine sezione development */
 
 /* mediaquery */
 @media screen and (max-width: 992px) {
@@ -356,5 +396,9 @@ h1 {
 
   .carosel_left, .carosel_right {
     display: none;
+  }
+
+  .carosel_2 {
+    padding: 40px 0;
   }
 }
