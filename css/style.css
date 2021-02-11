@@ -12,7 +12,7 @@ a:hover {
 }
 
 section {
-  padding: 35px 0;
+  padding: 45px 0;
 }
 
 .bg_grey {
@@ -367,8 +367,27 @@ h1 {
   color: #0069ff;
   font-weight: 500;
 }
-
 /* fine sezione development */
+/* sezione get started */
+#get_started {
+  background-image: url('../img/bg_section.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#get_started h2 {
+  color: white;
+}
+
+#get_started .btn_create {
+  background-color: white;
+  color: #0069ff;
+  font-weight: 500;
+  font-size: 16px;
+}
+/* fine sezione get started */
+
 
 /* mediaquery */
 @media screen and (max-width: 992px) {
