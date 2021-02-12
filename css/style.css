@@ -28,7 +28,7 @@ h2 {
 
 a:focus, button:focus, input:focus {
   text-decoration: none;
-  outline: none;
+  outline: none !important;
 }
 
 .deploy_box img, .features_box img {
@@ -442,6 +442,7 @@ footer .list-unstyled li {
   position: fixed;
   bottom: 30px;
   right: 30px;
+  font-size: 0px;
 }
 
 .shark_img {
@@ -476,7 +477,7 @@ footer .list-unstyled li {
 }
 
 .balloon {
-  display: inline-block;
+  display: none;
   margin-right: 12px;
   width: 280px;
   background-color: white;
@@ -499,6 +500,10 @@ footer .list-unstyled li {
   bottom: 3px;
   font-size: 20px;
   color: white;
+}
+
+.shark:hover .balloon {
+  display: inline-block;
 }
 /* fine sammy the shark */
 
